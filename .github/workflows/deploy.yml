@@ -71,5 +71,8 @@ jobs:
           bucket: gh-actions-hosting
           dist-folder: ./dist
           bucket-region: eu-central-1
+      - name: Output information
+        run: |
+          echo "Live URL: ${{ steps.deploy.outputs.website-url }}"
 
         
