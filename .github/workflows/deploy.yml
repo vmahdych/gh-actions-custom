@@ -70,5 +70,6 @@ jobs:
         with:
           bucket: gh-actions-hosting
           dist-folder: ./dist
+          bucket-region: eu-central-1
 
         
